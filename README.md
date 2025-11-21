@@ -1,15 +1,23 @@
-# Documentation
+# Squiglink Documentation
 
-## Contributing
+## Install
 
-1. Install dependencies:
+1. Install [Docker](https://www.docker.com/) and [Task](https://taskfile.dev).
 
-   ```sh
-   npm install
-   ```
-
-2. Check formatting with Prettier:
+2. Setup the application:
 
    ```sh
-   prettier --check .
+   task setup
    ```
+
+3. Start the application:
+
+   ```sh
+   task start
+   ```
+
+Done? View the documentation at <http://localhost:5173>.
+
+## Tips
+
+Execute `task` in the project folder to list available tasks.
