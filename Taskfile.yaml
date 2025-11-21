@@ -28,7 +28,7 @@ tasks:
   preview:
     desc: Preview the built documentation.
     cmds:
-      - docker compose run --rm documentation pnpm vitepress preview
+      - docker compose run --rm --service-ports documentation pnpm vitepress preview
 
   install-dependencies:
     desc: Install dependencies.
