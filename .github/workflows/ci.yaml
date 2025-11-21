@@ -6,9 +6,10 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    container:
-      image: alpine:edge
     steps:
       - uses: actions/checkout@v4
-      - run: apk add --no-cache npm
-      - run: npx prettier --check .
+      - uses: go-task/setup-task@v1
+
+      - run: task install-dependencies
+
+      - run: task check

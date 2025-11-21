@@ -1,0 +1,49 @@
+tasks:
+  build:
+    desc: Build the documentation.
+    cmds:
+      - docker compose run --rm documentation pnpm vitepress build
+
+  check:
+    desc: Check everything.
+    cmds:
+      - task: check-formatting
+
+  check-formatting:
+    desc: Check formatting.
+    cmds:
+      - docker compose run --rm documentation pnpm prettier --check .
+
+  fix-formatting:
+    desc: Fix formatting.
+    cmds:
+      - docker compose run --rm documentation pnpm prettier --write .
+
+  preview:
+    desc: Preview the built documentation.
+    cmds:
+      - docker compose run --rm documentation pnpm vitepress preview
+
+  install-dependencies:
+    desc: Install dependencies.
+    cmds:
+      - docker compose run --rm documentation pnpm install
+
+  list:
+    aliases:
+      - default
+    desc: List available tasks.
+    cmds:
+      - task --list
+
+  setup:
+    desc: Setup the application.
+    cmds:
+      - task: install-dependencies
+
+  start:
+    desc: Start the application.
+    cmds:
+      - docker compose up
+
+version: 3
