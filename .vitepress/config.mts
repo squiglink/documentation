@@ -8,10 +8,15 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
+      { text: "API Reference", link: "/api-reference" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
+      {
+        text: "Developer documentation",
+        items: [{ text: "API reference", link: "/api-reference" }],
+      },
       {
         text: "Examples",
         items: [

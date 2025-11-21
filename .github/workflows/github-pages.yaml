@@ -23,6 +23,7 @@ jobs:
       - uses: go-task/setup-task@v1
 
       - run: task install-dependencies
+      - run: task fetch-openapi-specification
       - run: task build
 
       - uses: actions/upload-pages-artifact@v3

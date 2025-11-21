@@ -1,4 +1,6 @@
 /.pnpm-store/
+/.temporary/
 /.vitepress/cache/
 /.vitepress/dist/
 /node_modules/
+/public/openapi.json

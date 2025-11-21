@@ -20,6 +20,23 @@ tasks:
     cmds:
       - docker compose run --rm documentation pnpm oxlint --deny-warnings
 
+  fetch-openapi-specification:
+    desc: Fetch the OpenAPI specification.
+    cmds:
+      - docker compose run --rm documentation sh -c "
+        mkdir --parents .temporary &&
+        rm -fr .temporary/api &&
+        git clone --depth 1 https://github.com/squiglink/api.git .temporary/api &&
+        cd .temporary/api &&
+        pnpm install &&
+        export \$(sed 's/#.*//' .env.example) &&
+        pnpm exec tsx scripts/generate-openapi.ts &&
+        mkdir --parents /documentation/public &&
+        cp output/openapi.json /documentation/public/openapi.json &&
+        cd /documentation &&
+        rm -fr .temporary/api
+        "
+
   fix-formatting:
     desc: Fix formatting.
     cmds:
