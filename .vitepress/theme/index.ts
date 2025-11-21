@@ -1,11 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
+import "./style.css";
+import "vitepress-openapi/dist/style.css";
+import DefaultTheme from "vitepress/theme";
+import spec from "../../public/openapi.json";
+import type { Theme } from "vitepress";
 import { h } from "vue";
 import { theme, useOpenapi } from "vitepress-openapi/client";
-import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
-import "vitepress-openapi/dist/style.css";
-import "./style.css";
-import spec from "../../public/openapi.json";
 
 export default {
   extends: DefaultTheme,

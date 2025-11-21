@@ -8,27 +8,20 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "API Reference", link: "/api-reference" },
+      { text: "API reference", link: "/api-reference" },
       { text: "Examples", link: "/markdown-examples" },
     ],
-
     sidebar: [
       {
         text: "Developer documentation",
         items: [{ text: "API reference", link: "/api-reference" }],
       },
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "Documentation",
+        items: [{ text: "Getting started", link: "/getting-started" }],
       },
     ],
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/squiglink" }],
   },
   title: "Squiglink",
 });
