@@ -1,4 +1,5 @@
 {
+  "name": "squiglink-documentation",
   "dependencies": {
     "vitepress": "^1.6.4"
   },

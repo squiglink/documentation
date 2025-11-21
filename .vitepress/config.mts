@@ -4,7 +4,7 @@ export default defineConfig({
   cleanUrls: true,
   description:
     "Empowering creators to publish frequency response data for headphones and IEMs",
-  srcDir: "src",
+  srcDir: "source",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
