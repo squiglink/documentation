@@ -8,11 +8,17 @@ tasks:
     desc: Check everything.
     cmds:
       - task: check-formatting
+      - task: check-linting
 
   check-formatting:
     desc: Check formatting.
     cmds:
       - docker compose run --rm documentation pnpm prettier --check .
+
+  check-linting:
+    desc: Check linting.
+    cmds:
+      - docker compose run --rm documentation pnpm oxlint --deny-warnings
 
   fix-formatting:
     desc: Fix formatting.
