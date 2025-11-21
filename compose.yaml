@@ -1,0 +1,7 @@
+services:
+  documentation:
+    build: .
+    ports:
+      - 5173:5173
+    volumes:
+      - .:/documentation
