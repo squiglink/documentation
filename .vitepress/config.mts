@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Developer docs", link: "/api-reference" },
-      { text: "Managing a squig site", link: "/join-squiglink" },
+      { text: "Join Squiglink", link: "/joining-squiglink" },
     ],
     sidebar: [
       {
