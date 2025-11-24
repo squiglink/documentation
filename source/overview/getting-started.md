@@ -12,7 +12,7 @@ If you're an audio reviewer, collector, or a company with a passion for making m
 
 ### Self-hosted
 
-It is possible to self-host if you are not willing to be a part of the official instance. Squiglink consists of multiple monolithic services:
+It is possible to self-host if you would rather have your own instance. Squiglink consists of multiple monolithic services:
 
 - [API](https://github.com/squiglink/api) - the JSON API for developers.
 - [Lab](https://github.com/squiglink/lab) - the user-facing website.
