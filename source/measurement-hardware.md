@@ -4,4 +4,3 @@ outline: deep
 ---
 
 # Hardware setup
-

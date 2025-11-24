@@ -14,9 +14,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Developer documentation",
-        items: [
-          { text: "API reference", link: "/api-reference" },
-        ],
+        items: [{ text: "API reference", link: "/api-reference" }],
       },
       {
         text: "Managing a squig site",

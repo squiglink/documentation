@@ -8,19 +8,20 @@ outline: deep
 This tutorial will guide you through the process of importing new measurements to Squiglink. But first, a high-level overview of the steps, from measurement to seeing the graph on Squiglink.
 
 ### 1. REW or AudioTools
+
 - Measure your IEM
 - Export your measurement as a `.txt` file
 
 ### 2. Text editor (e.g. Sublime)
+
 - Edit the `phone_book.json` file
 
 ### 3. FTP
+
 - Upload the new measurements
 - Upload the updated `phone_book.json`
 
 This tutorial won't walk you through the initial measurement process, but will cover the rest. Let's dive into detail.
-
-
 
 ## Exporting your measurements
 
@@ -46,12 +47,12 @@ This will display a dialog that looks like this:
 
 Some -- maybe all -- of the settings in this screenshot are vital to match in order for the graph tool to read the measurements, so try to match these settings exactly.
 
-| Option                     | Setting              |
-| -------------------------- | -------------------- |
-| Use custom range           | `20 - 20,000Hz`      |
-| Use custom resolution      | `48 PPO`             |
-| Use REW export format      | `Checked`            |
-| Export text delimiter      | `Tab`                |
+| Option                | Setting         |
+| --------------------- | --------------- |
+| Use custom range      | `20 - 20,000Hz` |
+| Use custom resolution | `48 PPO`        |
+| Use REW export format | `Checked`       |
+| Export text delimiter | `Tab`           |
 
 Click OK and save the file.
 
@@ -60,28 +61,27 @@ Note that your filenames will be used to identify this measurement, later in the
 - Filenames can't have underscores in them.
 - Filenames must end with one of the following, depending on the measurement type:
 
-| Measurement type | Example filename     |
-|------------------|----------------------|
-| L channel        | `Dunu Zen L.txt`     |
-| R channel        | `Dunu Zen R.txt`     |
-| Target           | `Dunu Zen Target.txt`|
+| Measurement type | Example filename      |
+| ---------------- | --------------------- |
+| L channel        | `Dunu Zen L.txt`      |
+| R channel        | `Dunu Zen R.txt`      |
+| Target           | `Dunu Zen Target.txt` |
 
 If your squig site is configured to use multiple samples for each measurement (e.g. to display the average of three seatings), the file naming looks like this:
 
-| Measurement type | Example filename     |
-|------------------|----------------------|
-| L channel        | `Dunu Zen L1.txt`    |
-| L channel        | `Dunu Zen L2.txt`    |
-| L channel        | `Dunu Zen L3.txt`    |
-| R channel        | `Dunu Zen R1.txt`    |
-| R channel        | `Dunu Zen R2.txt`    |
-| R channel        | `Dunu Zen R3.txt`    |
+| Measurement type | Example filename  |
+| ---------------- | ----------------- |
+| L channel        | `Dunu Zen L1.txt` |
+| L channel        | `Dunu Zen L2.txt` |
+| L channel        | `Dunu Zen L3.txt` |
+| R channel        | `Dunu Zen R1.txt` |
+| R channel        | `Dunu Zen R2.txt` |
+| R channel        | `Dunu Zen R3.txt` |
 
 ![File naming for Squiglink compatibility](./media/updating-squig-site-04.png)
 
-
-
 ## Editing the phone_book
+
 The `phone_book.json` file acts as a directory of all of your measurement files. So when we add new measurements, we have to update the file to let the graph tool know about them.
 
 You can edit the `phone_book` file with any basic text editor -- Notepad on Windows or TextEdit on Mac are both fine. I prefer to use [Sublime Text](https://www.sublimetext.com/), which will help with some visual formatting, but it's not necessary.
@@ -110,8 +110,6 @@ A common mistake is either omitting a necessary comma (`,`) at the end of a line
 
 Save your edits and cross your fingers
 
-
-
 ## Uploading your measurements
 
 With your measurement files exported and the phone_book updated, it's time to take the final step and upload the files to the server via FTP.
@@ -126,8 +124,6 @@ There are lots of possible FTP programs to use. I personally use [FileZilla](htt
 - You will need to overwrite the existing `phone_book.json` file
 
 If all's gone well, you should be done. Refresh your Squiglink site to see if the changes came through and are working.
-
-
 
 ## Caching
 
