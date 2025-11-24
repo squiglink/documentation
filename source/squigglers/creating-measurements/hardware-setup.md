@@ -1,0 +1,3 @@
+# Hardware setup
+
+Whatcha doing here? No documentation yet...

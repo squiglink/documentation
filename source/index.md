@@ -8,11 +8,11 @@ hero:
   tagline: Empowering creators to publish frequency response data for headphones and IEMs
   actions:
     - theme: brand
-      text: Developer docs
-      link: /api-reference
-    - theme: alt
       text: Join Squiglink
-      link: /joining-squiglink
+      link: /overview/getting-started
+    - theme: alt
+      text: Easter egg
+      link: https://bongo.cat
 
 features:
   - title: Enthusiast-friendly

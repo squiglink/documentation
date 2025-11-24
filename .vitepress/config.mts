@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { fileURLToPath } from "url";
 
 export default defineConfig({
   cleanUrls: true,
@@ -7,36 +8,53 @@ export default defineConfig({
   srcDir: "source",
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Developer docs", link: "/api-reference" },
-      { text: "Join Squiglink", link: "/joining-squiglink" },
+      { text: "Home", link: "/overview/getting-started" },
+      { text: "Squiglink Lab", link: "https://squig.link" },
+      { text: "Squiglink Studio (TBD)", link: "https://studio.squig.link/" },
     ],
     sidebar: [
       {
-        text: "Developer documentation",
-        items: [{ text: "API reference", link: "/api-reference" }],
+        text: "Overview",
+        items: [{ text: "Getting started", link: "/overview/getting-started" }],
       },
       {
-        text: "Managing a squig site",
+        text: "Developers",
+        items: [{ text: "API reference", link: "/developers/api-reference" }],
+      },
+      {
+        text: "Squigglers",
         items: [
-          { text: "Joining Squiglink", link: "/joining-squiglink" },
-          { text: "Self-hosting ", link: "/hosting-squig-site" },
-          { text: "Updating", link: "/updating-squig-site" },
+          {
+            text: "Managing a squig database",
+            link: "/squigglers/managing-a-database",
+          },
+          {
+            text: "Creating measurements",
+            items: [
+              {
+                text: "Hardware setup",
+                link: "/squigglers/creating-measurements/hardware-setup",
+              },
+              {
+                text: "Using REW",
+                link: "/squigglers/creating-measurements/using-rew",
+              },
+            ],
+          },
         ],
-      },
-      {
-        text: "Creating measurements",
-        items: [
-          { text: "Hardware setup", link: "/measurement-hardware" },
-          { text: "Using REW", link: "/using-rew" },
-        ],
-      },
-      {
-        text: "Site documentation",
-        items: [{ text: "Using Markdown", link: "/markdown" }],
       },
     ],
-    socialLinks: [{ icon: "github", link: "https://github.com/squiglink" }],
+    socialLinks: [
+      { icon: "discord", link: "https://discord.gg/HADZ4RtVQa" },
+      { icon: "github", link: "https://github.com/squiglink" },
+    ],
   },
   title: "Squiglink",
+  vite: {
+    resolve: {
+      alias: {
+        "@public": fileURLToPath(new URL("../public", import.meta.url)),
+      },
+    },
+  },
 });

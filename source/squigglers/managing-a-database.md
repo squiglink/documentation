@@ -1,9 +1,6 @@
----
-aside: false
-outline: deep
----
+# Managing a database
 
-# How to update a Squiglink site
+## How to update a Squiglink database
 
 This tutorial will guide you through the process of importing new measurements to Squiglink. But first, a high-level overview of the steps, from measurement to seeing the graph on Squiglink.
 
@@ -33,7 +30,7 @@ The graph tool can't read mdat files, but instead requires txt exports. Thankful
 
 To start, open your mdat measurement file in REW.
 
-![Viewing a measurement in REW](./media/updating-squig-site-03.png)
+![Viewing a measurement in REW](./media/managing-a-database-03.png)
 
 ## Export measurement as text
 
@@ -43,7 +40,7 @@ Click `File` > `Export` > `Export measurement as text`
 
 This will display a dialog that looks like this:
 
-![Exporting a .txt for Squiglink compatibility](./media/updating-squig-site-02.png)
+![Exporting a .txt for Squiglink compatibility](./media/managing-a-database-02.png)
 
 Some -- maybe all -- of the settings in this screenshot are vital to match in order for the graph tool to read the measurements, so try to match these settings exactly.
 
@@ -78,7 +75,7 @@ If your squig site is configured to use multiple samples for each measurement (e
 | R channel        | `Dunu Zen R2.txt` |
 | R channel        | `Dunu Zen R3.txt` |
 
-![File naming for Squiglink compatibility](./media/updating-squig-site-04.png)
+![File naming for Squiglink compatibility](./media/managing-a-database-04.png)
 
 ## Editing the phone_book
 
@@ -106,7 +103,7 @@ The core formatting is broken up into brands and models. This is what a brand wi
 
 A common mistake is either omitting a necessary comma (`,`) at the end of a line, or including an unnecessary comma. The screenshot below shows what a functioning phone_book looks like -- reference this if you break something and need to debug.
 
-![Example phone_book.json file](./media/updating-squig-site-01.png)
+![Example phone_book.json file](./media/managing-a-database-01.png)
 
 Save your edits and cross your fingers.
 
@@ -124,7 +121,7 @@ When your Squiglink account is first created, you'll be given a username and a _
 
 Once you've changed your password, you can use your new password in an FTP program like Filezilla with these settings:
 
-![Squiglink SFTP settings](./media/updating-squig-site-06.png)
+![Squiglink SFTP settings](./media/managing-a-database-06.png)
 
 ### Connect to your FTP
 
