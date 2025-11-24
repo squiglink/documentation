@@ -1,4 +1,4 @@
-# Introduction
+# Getting started
 
 Squiglink is an audio measurement database powered by creators (squigglers). We provide frequency response measurements for thousands of IEMs, headphones, wireless products, and more.
 

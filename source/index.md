@@ -8,7 +8,7 @@ hero:
   tagline: Empowering creators to publish frequency response data for headphones and IEMs
   actions:
     - theme: brand
-      text: Join Squiglink
+      text: Get started
       link: /overview/getting-started
     - theme: alt
       text: Easter egg
