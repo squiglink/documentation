@@ -1,5 +1,11 @@
 {
   "name": "squiglink-documentation",
+  "scripts": {
+    "check": "docker compose run --rm documentation pnpm prettier --check . && docker compose run --rm documentation pnpm oxlint --deny-warnings",
+    "check:format": "docker compose run --rm documentation pnpm prettier --check .",
+    "check:lint": "docker compose run --rm documentation pnpm oxlint --deny-warnings",
+    "fix:format": "docker compose run --rm documentation pnpm prettier --write ."
+  },
   "dependencies": {
     "vitepress": "^1.6.4",
     "vitepress-openapi": "^0.1.10"

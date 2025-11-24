@@ -108,11 +108,23 @@ A common mistake is either omitting a necessary comma (`,`) at the end of a line
 
 ![Example phone_book.json file](./media/updating-squig-site-01.png)
 
-Save your edits and cross your fingers
+Save your edits and cross your fingers.
 
 ## Uploading your measurements
 
 With your measurement files exported and the phone_book updated, it's time to take the final step and upload the files to the server via FTP.
+
+### Complete account setup
+
+When your Squiglink account is first created, you'll be given a username and a _temporary_ password. Before you can use this password to log in and upload changes to your site, you'll need to complete account setup by changing your password.
+
+1. [Visit this link](https://sftpgo.squig.link/) to open the Squiglink FTP web portal.
+2. Log in with your username and temporary password.
+3. The web portal should ask you to change your password, which you can do by hovering over the user icon in the top-right.
+
+Once you've changed your password, you can use your new password in an FTP program like Filezilla with these settings:
+
+![Squiglink SFTP settings](./media/updating-squig-site-06.png)
 
 ### Connect to your FTP
 
