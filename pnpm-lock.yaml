@@ -12,8 +12,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3)
       vitepress-openapi:
-        specifier: ^0.1.10
-        version: 0.1.10(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.25)
+        specifier: ^0.1.12
+        version: 0.1.12(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.25)
     devDependencies:
       oxlint:
         specifier: ^1.26.0
@@ -806,8 +806,8 @@ packages:
   regex@6.0.1:
     resolution: {integrity: sha512-uorlqlzAKjKQZ5P+kTJr3eeJGSVroLKoHmquUj4zHWuR+hEyNqlXsSKlYYF5F4NI6nl7tWCs0apKJ0lmfsXAPA==}
 
-  reka-ui@2.6.0:
-    resolution: {integrity: sha512-NrGMKrABD97l890mFS3TNUzB0BLUfbL3hh0NjcJRIUSUljb288bx3Mzo31nOyUcdiiW0HqFGXJwyCBh9cWgb0w==}
+  reka-ui@2.6.1:
+    resolution: {integrity: sha512-XK7cJDQoNuGXfCNzBBo/81Yg/OgjPwvbabnlzXG2VsdSgNsT6iIkuPBPr+C0Shs+3bb0x0lbPvgQAhMSCKm5Ww==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -904,8 +904,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-openapi@0.1.10:
-    resolution: {integrity: sha512-Pu7h2EFM0yvrjSgDsoBhWaRKTTl+5Z21lmkjh1aFtZk7f3CXD0pTXrUOh/3juBUmLv+zoS3t4vSGKtll2Cd6mw==}
+  vitepress-openapi@0.1.12:
+    resolution: {integrity: sha512-r6Uj43MZpWDrU60xvRG5ZT7Y9wG0qJZIzw7VmXqF5vbbB196/fZ7a3dEhhVs8HrQuX2JsMdRj2reurB+bwidew==}
     peerDependencies:
       vitepress: '>=1.0.0'
       vue: ^3.0.0
@@ -1691,7 +1691,7 @@ snapshots:
     dependencies:
       regex-utilities: 2.3.0
 
-  reka-ui@2.6.0(vue@3.5.25):
+  reka-ui@2.6.1(vue@3.5.25):
     dependencies:
       '@floating-ui/dom': 1.7.4
       '@floating-ui/vue': 1.1.9(vue@3.5.25)
@@ -1813,14 +1813,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-openapi@0.1.10(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.25):
+  vitepress-openapi@0.1.12(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.25):
     dependencies:
       '@vueuse/core': 13.9.0(vue@3.5.25)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       lucide-vue-next: 0.503.0(vue@3.5.25)
       markdown-it-link-attributes: 4.0.1
-      reka-ui: 2.6.0(vue@3.5.25)
+      reka-ui: 2.6.1(vue@3.5.25)
       vitepress: 1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3)
       vue: 3.5.25
     transitivePeerDependencies:

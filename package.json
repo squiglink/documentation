@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vitepress": "^1.6.4",
-    "vitepress-openapi": "^0.1.10"
+    "vitepress-openapi": "^0.1.12"
   },
   "devDependencies": {
     "oxlint": "^1.26.0",
