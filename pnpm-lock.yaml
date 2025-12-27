@@ -12,8 +12,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3)
       vitepress-openapi:
-        specifier: ^0.1.12
-        version: 0.1.12(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.26)
+        specifier: ^0.1.13
+        version: 0.1.13(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.26)
     devDependencies:
       oxlint:
         specifier: ^1.35.0
@@ -299,8 +299,8 @@ packages:
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
-  '@internationalized/date@3.10.0':
-    resolution: {integrity: sha512-oxDR/NTEJ1k+UFVQElaNIk65E/Z83HK1z1WI3lQyhTtnNg4R5oVXaPzK3jcpKG8UHKDVuDQHzn+wsxSz8RP3aw==}
+  '@internationalized/date@3.10.1':
+    resolution: {integrity: sha512-oJrXtQiAXLvT9clCf1K4kxp3eKsQhIaZqxEyowkBcsvZDdZkbWrVmnGknxs5flTD0VGsxrxKgBCZty1EzoiMzA==}
 
   '@internationalized/number@3.6.5':
     resolution: {integrity: sha512-6hY4Kl4HPBvtfS62asS/R22JzNNy8vi/Ssev7x6EobfCp+9QIB2hKvI2EtbdJ0VSQacxVNtqhE/NmF/NZ0gm6g==}
@@ -482,14 +482,14 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@swc/helpers@0.5.17':
-    resolution: {integrity: sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==}
+  '@swc/helpers@0.5.18':
+    resolution: {integrity: sha512-TXTnIcNJQEKwThMMqBXsZ4VGAza6bvN4pa41Rkqoio6QBKMvo+5lexeTMScGCIxtzgQJzElcvIltani+adC5PQ==}
 
-  '@tanstack/virtual-core@3.13.12':
-    resolution: {integrity: sha512-1YBOJfRHV4sXUmWsFSf5rQor4Ss82G8dQWLRbnk3GA4jeP8hQt1hxXh0tmflpC0dz3VgEv/1+qwPyLeWkQuPFA==}
+  '@tanstack/virtual-core@3.13.13':
+    resolution: {integrity: sha512-uQFoSdKKf5S8k51W5t7b2qpfkyIbdHMzAn+AMQvHPxKUPeo1SsGaA4JRISQT87jm28b7z8OEqPcg1IOZagQHcA==}
 
-  '@tanstack/vue-virtual@3.13.12':
-    resolution: {integrity: sha512-vhF7kEU9EXWXh+HdAwKJ2m3xaOnTTmgcdXcF2pim8g4GvI7eRrk2YRuV5nUlZnd/NbCIX4/Ja2OZu5EjJL06Ww==}
+  '@tanstack/vue-virtual@3.13.13':
+    resolution: {integrity: sha512-Cf2xIEE8nWAfsX0N5nihkPYMeQRT+pHt4NEkuP8rNCn6lVnLDiV8rC8IeIxbKmQC0yPnj4SIBLwXYVf86xxKTQ==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
@@ -806,8 +806,8 @@ packages:
   regex@6.0.1:
     resolution: {integrity: sha512-uorlqlzAKjKQZ5P+kTJr3eeJGSVroLKoHmquUj4zHWuR+hEyNqlXsSKlYYF5F4NI6nl7tWCs0apKJ0lmfsXAPA==}
 
-  reka-ui@2.6.1:
-    resolution: {integrity: sha512-XK7cJDQoNuGXfCNzBBo/81Yg/OgjPwvbabnlzXG2VsdSgNsT6iIkuPBPr+C0Shs+3bb0x0lbPvgQAhMSCKm5Ww==}
+  reka-ui@2.7.0:
+    resolution: {integrity: sha512-m+XmxQN2xtFzBP3OAdIafKq7C8OETo2fqfxcIIxYmNN2Ch3r5oAf6yEYCIJg5tL/yJU2mHqF70dCCekUkrAnXA==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -904,8 +904,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-openapi@0.1.12:
-    resolution: {integrity: sha512-r6Uj43MZpWDrU60xvRG5ZT7Y9wG0qJZIzw7VmXqF5vbbB196/fZ7a3dEhhVs8HrQuX2JsMdRj2reurB+bwidew==}
+  vitepress-openapi@0.1.13:
+    resolution: {integrity: sha512-cu0d07Gn6NCtWCNWtNI91bM41OeLBX5wdKRSCxaC1wZv9RSBNZ35KKT9GW5+Eb0qDx0wBtGeXZ9fIGf5QT3xGA==}
     peerDependencies:
       vitepress: '>=1.0.0'
       vue: ^3.0.0
@@ -1190,13 +1190,13 @@ snapshots:
 
   '@iconify/types@2.0.0': {}
 
-  '@internationalized/date@3.10.0':
+  '@internationalized/date@3.10.1':
     dependencies:
-      '@swc/helpers': 0.5.17
+      '@swc/helpers': 0.5.18
 
   '@internationalized/number@3.6.5':
     dependencies:
-      '@swc/helpers': 0.5.17
+      '@swc/helpers': 0.5.18
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
@@ -1330,15 +1330,15 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@swc/helpers@0.5.17':
+  '@swc/helpers@0.5.18':
     dependencies:
       tslib: 2.8.1
 
-  '@tanstack/virtual-core@3.13.12': {}
+  '@tanstack/virtual-core@3.13.13': {}
 
-  '@tanstack/vue-virtual@3.13.12(vue@3.5.26)':
+  '@tanstack/vue-virtual@3.13.13(vue@3.5.26)':
     dependencies:
-      '@tanstack/virtual-core': 3.13.12
+      '@tanstack/virtual-core': 3.13.13
       vue: 3.5.26
 
   '@types/estree@1.0.8': {}
@@ -1691,13 +1691,13 @@ snapshots:
     dependencies:
       regex-utilities: 2.3.0
 
-  reka-ui@2.6.1(vue@3.5.26):
+  reka-ui@2.7.0(vue@3.5.26):
     dependencies:
       '@floating-ui/dom': 1.7.4
       '@floating-ui/vue': 1.1.9(vue@3.5.26)
-      '@internationalized/date': 3.10.0
+      '@internationalized/date': 3.10.1
       '@internationalized/number': 3.6.5
-      '@tanstack/vue-virtual': 3.13.12(vue@3.5.26)
+      '@tanstack/vue-virtual': 3.13.13(vue@3.5.26)
       '@vueuse/core': 12.8.2
       '@vueuse/shared': 12.8.2
       aria-hidden: 1.2.6
@@ -1813,14 +1813,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-openapi@0.1.12(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.26):
+  vitepress-openapi@0.1.13(vitepress@1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.26):
     dependencies:
       '@vueuse/core': 13.9.0(vue@3.5.26)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       lucide-vue-next: 0.503.0(vue@3.5.26)
       markdown-it-link-attributes: 4.0.1
-      reka-ui: 2.6.1(vue@3.5.26)
+      reka-ui: 2.7.0(vue@3.5.26)
       vitepress: 1.6.4(@algolia/client-search@5.44.0)(postcss@8.5.6)(search-insights@2.17.3)
       vue: 3.5.26
     transitivePeerDependencies:
