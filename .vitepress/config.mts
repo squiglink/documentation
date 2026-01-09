@@ -3,8 +3,7 @@ import { fileURLToPath } from "url";
 
 export default defineConfig({
   cleanUrls: true,
-  description:
-    "Empowering creators to publish frequency response data for headphones and IEMs",
+  description: "Empowering creators to publish frequency response data for headphones and IEMs",
   srcDir: "source",
   themeConfig: {
     nav: [
