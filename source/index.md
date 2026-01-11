@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: Get started
       link: /overview/getting-started
-    - theme: alt
-      text: Easter egg
-      link: https://bongo.cat
 
 features:
   - title: Enthusiast-friendly
