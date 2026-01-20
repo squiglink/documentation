@@ -7,6 +7,6 @@
   "devDependencies": {
     "oxfmt": "^0.24.0",
     "oxlint": "^1.39.0",
-    "vue": "^3.5.26"
+    "vue": "^3.5.27"
   }
 }
