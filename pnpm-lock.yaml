@@ -12,8 +12,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3)
       vitepress-openapi:
-        specifier: ^0.1.14
-        version: 0.1.14(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.29)
+        specifier: ^0.1.15
+        version: 0.1.15(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.29)
     devDependencies:
       oxfmt:
         specifier: ^0.35.0
@@ -685,14 +685,14 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@swc/helpers@0.5.18':
-    resolution: {integrity: sha512-TXTnIcNJQEKwThMMqBXsZ4VGAza6bvN4pa41Rkqoio6QBKMvo+5lexeTMScGCIxtzgQJzElcvIltani+adC5PQ==}
+  '@swc/helpers@0.5.19':
+    resolution: {integrity: sha512-QamiFeIK3txNjgUTNppE6MiG3p7TdninpZu0E0PbqVh1a9FNLT2FRhisaa4NcaX52XVhA5l7Pk58Ft7Sqi/2sA==}
 
-  '@tanstack/virtual-core@3.13.18':
-    resolution: {integrity: sha512-Mx86Hqu1k39icq2Zusq+Ey2J6dDWTjDvEv43PJtRCoEYTLyfaPnxIQ6iy7YAOK0NV/qOEmZQ/uCufrppZxTgcg==}
+  '@tanstack/virtual-core@3.13.19':
+    resolution: {integrity: sha512-/BMP7kNhzKOd7wnDeB8NrIRNLwkf5AhCYCvtfZV2GXWbBieFm/el0n6LOAXlTi6ZwHICSNnQcIxRCWHrLzDY+g==}
 
-  '@tanstack/vue-virtual@3.13.18':
-    resolution: {integrity: sha512-6pT8HdHtTU5Z+t906cGdCroUNA5wHjFXsNss9gwk7QAr1VNZtz9IQCs2Nhx0gABK48c+OocHl2As+TMg8+Hy4A==}
+  '@tanstack/vue-virtual@3.13.19':
+    resolution: {integrity: sha512-07Fp1TYuIziB4zIDA/moeDKHODePy3K1fN4c4VIAGnkxo1+uOvBJP7m54CoxKiQX6Q9a1dZnznrwOg9C86yvvA==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
@@ -779,8 +779,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/core@14.2.0':
-    resolution: {integrity: sha512-tpjzVl7KCQNVd/qcaCE9XbejL38V6KJAEq/tVXj7mDPtl6JtzmUdnXelSS+ULRkkrDgzYVK7EerQJvd2jR794Q==}
+  '@vueuse/core@14.2.1':
+    resolution: {integrity: sha512-3vwDzV+GDUNpdegRY6kzpLm4Igptq+GA0QkJ3W61Iv27YWwW/ufSlOfgQIpN6FZRMG0mkaz4gglJRtq5SeJyIQ==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -831,8 +831,8 @@ packages:
   '@vueuse/metadata@13.9.0':
     resolution: {integrity: sha512-1AFRvuiGphfF7yWixZa0KwjYH8ulyjDCC0aFgrGRz8+P4kvDFSdXLVfTk5xAN9wEuD1J6z4/myMoYbnHoX07zg==}
 
-  '@vueuse/metadata@14.2.0':
-    resolution: {integrity: sha512-i3axTGjU8b13FtyR4Keeama+43iD+BwX9C2TmzBVKqjSHArF03hjkp2SBZ1m72Jk2UtrX0aYCugBq2R1fhkuAQ==}
+  '@vueuse/metadata@14.2.1':
+    resolution: {integrity: sha512-1ButlVtj5Sb/HDtIy1HFr1VqCP4G6Ypqt5MAo0lCgjokrk2mvQKsK2uuy0vqu/Ks+sHfuHo0B9Y9jn9xKdjZsw==}
 
   '@vueuse/shared@12.8.2':
     resolution: {integrity: sha512-dznP38YzxZoNloI0qpEfpkms8knDtaoQ6Y/sfS0L7Yki4zh40LFHEhur0odJC6xTHG5dxWVPiUWBXn+wCG2s5w==}
@@ -842,8 +842,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@vueuse/shared@14.2.0':
-    resolution: {integrity: sha512-Z0bmluZTlAXgUcJ4uAFaML16JcD8V0QG00Db3quR642I99JXIDRa2MI2LGxiLVhcBjVnL1jOzIvT5TT2lqJlkA==}
+  '@vueuse/shared@14.2.1':
+    resolution: {integrity: sha512-shTJncjV9JTI4oVNyF1FQonetYAiTBd+Qj7cY89SWbXSkx7gyhrgtEdF2ZAVWS1S3SHlaROO6F2IesJxQEkZBw==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -1022,8 +1022,8 @@ packages:
   regex@6.1.0:
     resolution: {integrity: sha512-6VwtthbV4o/7+OaAF9I5L5V3llLEsoPyq9P1JVXkedTP33c7MfCG0/5NOPcSJn0TzXcG9YUrR0gQSWioew3LDg==}
 
-  reka-ui@2.8.0:
-    resolution: {integrity: sha512-N4JOyIrmDE7w2i06WytqcV2QICubtS2PsK5Uo8FIMAgmO13KhUAgAByP26cXjjm2oF/w7rTyRs8YaqtvaBT+SA==}
+  reka-ui@2.8.2:
+    resolution: {integrity: sha512-8lTKcJhmG+D3UyJxhBnNnW/720sLzm0pbA9AC1MWazmJ5YchJAyTSl+O00xP/kxBmEN0fw5JqWVHguiFmsGjzA==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -1124,8 +1124,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-openapi@0.1.14:
-    resolution: {integrity: sha512-or1kyYcXYHPcNly1kYPShSDfTZBL1TqNIRAOQM00kJAQ6OedhG/fM78PQ9ZHb8/H3raCn2dQ0WBYXcp0LV4zSQ==}
+  vitepress-openapi@0.1.15:
+    resolution: {integrity: sha512-lGedZoiVsS13FskFz6HEgGEya2/YHueRTZbI5Abkfr9taWr4DuggclM9iiMeGRvmwn1sEi8MNTJLZcxYIKV5fQ==}
     peerDependencies:
       vitepress: '>=1.0.0'
       vue: ^3.0.0
@@ -1412,11 +1412,11 @@ snapshots:
 
   '@internationalized/date@3.11.0':
     dependencies:
-      '@swc/helpers': 0.5.18
+      '@swc/helpers': 0.5.19
 
   '@internationalized/number@3.6.5':
     dependencies:
-      '@swc/helpers': 0.5.18
+      '@swc/helpers': 0.5.19
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
@@ -1649,15 +1649,15 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@swc/helpers@0.5.18':
+  '@swc/helpers@0.5.19':
     dependencies:
       tslib: 2.8.1
 
-  '@tanstack/virtual-core@3.13.18': {}
+  '@tanstack/virtual-core@3.13.19': {}
 
-  '@tanstack/vue-virtual@3.13.18(vue@3.5.29)':
+  '@tanstack/vue-virtual@3.13.19(vue@3.5.29)':
     dependencies:
-      '@tanstack/virtual-core': 3.13.18
+      '@tanstack/virtual-core': 3.13.19
       vue: 3.5.29
 
   '@types/estree@1.0.8': {}
@@ -1780,11 +1780,11 @@ snapshots:
       '@vueuse/shared': 13.9.0(vue@3.5.29)
       vue: 3.5.29
 
-  '@vueuse/core@14.2.0(vue@3.5.29)':
+  '@vueuse/core@14.2.1(vue@3.5.29)':
     dependencies:
       '@types/web-bluetooth': 0.0.21
-      '@vueuse/metadata': 14.2.0
-      '@vueuse/shared': 14.2.0(vue@3.5.29)
+      '@vueuse/metadata': 14.2.1
+      '@vueuse/shared': 14.2.1(vue@3.5.29)
       vue: 3.5.29
 
   '@vueuse/integrations@12.8.2(focus-trap@7.7.1)':
@@ -1801,7 +1801,7 @@ snapshots:
 
   '@vueuse/metadata@13.9.0': {}
 
-  '@vueuse/metadata@14.2.0': {}
+  '@vueuse/metadata@14.2.1': {}
 
   '@vueuse/shared@12.8.2':
     dependencies:
@@ -1813,7 +1813,7 @@ snapshots:
     dependencies:
       vue: 3.5.29
 
-  '@vueuse/shared@14.2.0(vue@3.5.29)':
+  '@vueuse/shared@14.2.1(vue@3.5.29)':
     dependencies:
       vue: 3.5.29
 
@@ -2056,15 +2056,15 @@ snapshots:
     dependencies:
       regex-utilities: 2.3.0
 
-  reka-ui@2.8.0(vue@3.5.29):
+  reka-ui@2.8.2(vue@3.5.29):
     dependencies:
       '@floating-ui/dom': 1.7.5
       '@floating-ui/vue': 1.1.10(vue@3.5.29)
       '@internationalized/date': 3.11.0
       '@internationalized/number': 3.6.5
-      '@tanstack/vue-virtual': 3.13.18(vue@3.5.29)
-      '@vueuse/core': 14.2.0(vue@3.5.29)
-      '@vueuse/shared': 14.2.0(vue@3.5.29)
+      '@tanstack/vue-virtual': 3.13.19(vue@3.5.29)
+      '@vueuse/core': 14.2.1(vue@3.5.29)
+      '@vueuse/shared': 14.2.1(vue@3.5.29)
       aria-hidden: 1.2.6
       defu: 6.1.4
       ohash: 2.0.11
@@ -2182,14 +2182,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-openapi@0.1.14(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.29):
+  vitepress-openapi@0.1.15(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3))(vue@3.5.29):
     dependencies:
       '@vueuse/core': 13.9.0(vue@3.5.29)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       lucide-vue-next: 0.503.0(vue@3.5.29)
       markdown-it-link-attributes: 4.0.1
-      reka-ui: 2.8.0(vue@3.5.29)
+      reka-ui: 2.8.2(vue@3.5.29)
       vitepress: 1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.6)(search-insights@2.17.3)
       vue: 3.5.29
     transitivePeerDependencies:
