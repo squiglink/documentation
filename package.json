@@ -2,7 +2,7 @@
   "name": "squiglink-documentation",
   "dependencies": {
     "vitepress": "^1.6.4",
-    "vitepress-openapi": "^0.1.14"
+    "vitepress-openapi": "^0.1.15"
   },
   "devDependencies": {
     "oxfmt": "^0.35.0",
