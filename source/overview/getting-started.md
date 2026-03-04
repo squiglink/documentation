@@ -14,14 +14,14 @@ If you're an audio reviewer, collector, or a company with a passion for making m
 
 It is possible to self-host if you would rather have your own instance. Squiglink consists of multiple monolithic services:
 
-- [API](https://github.com/squiglink/api) - the JSON API for developers.
 - [Lab](https://github.com/squiglink/lab) - the user-facing website.
+- [Server](https://github.com/squiglink/server) - the server with a JSON API for developers.
 - [Studio](https://github.com/squiglink/studio) - the website for squigglers.
 
 You would typically want to host all of these, but it is possible to, for example, omit Lab if you are planning on building your own public interface.
 
 > [!warning]
-> The API and Studio are currently under development and are not yet ready for public use, unless you are willing to report bugs and collaborate.
+> Server and Studio are currently under development and are not yet ready for public use, unless you are willing to report bugs and collaborate.
 
 ## Contributing
 
