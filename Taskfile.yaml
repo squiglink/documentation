@@ -62,6 +62,7 @@ tasks:
   setup:
     desc: Setup the application.
     cmds:
+      - task: fetch-openapi-specification
       - task: install-dependencies
 
   start:
