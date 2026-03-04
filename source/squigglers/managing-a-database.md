@@ -32,17 +32,17 @@ To start, open your mdat measurement file in REW.
 
 ![Viewing a measurement in REW](./media/managing-a-database-03.png)
 
-## Export measurement as text
+### Export measurement as text
 
-While mdat files can contain multiple measurements, txt exports are singular -- so if your mdat file has measurements for both L and R channels, you'll need to export them individually as separate files.
+While mdat files can contain multiple measurements, txt exports are singular - so if your mdat file has measurements for both L and R channels, you'll need to export them individually as separate files.
 
-Click `File` > `Export` > `Export measurement as text`
+Click `File` > `Export` > `Export measurement as text`.
 
 This will display a dialog that looks like this:
 
 ![Exporting a .txt for Squiglink compatibility](./media/managing-a-database-02.png)
 
-Some -- maybe all -- of the settings in this screenshot are vital to match in order for the graph tool to read the measurements, so try to match these settings exactly.
+Some - maybe all - of the settings in this screenshot are vital to match in order for the graph tool to read the measurements, so try to match these settings exactly.
 
 | Option                | Setting         |
 | --------------------- | --------------- |
@@ -81,27 +81,27 @@ If your squig site is configured to use multiple samples for each measurement (e
 
 The `phone_book.json` file acts as a directory of all of your measurement files. So when we add new measurements, we have to update the file to let the graph tool know about them.
 
-You can edit the `phone_book` file with any basic text editor -- Notepad on Windows or TextEdit on Mac are both fine. I prefer to use [Sublime Text](https://www.sublimetext.com/), which will help with some visual formatting, but it's not necessary.
+You can edit the `phone_book` file with any basic text editor - Notepad on Windows or TextEdit on Mac are both fine. I prefer to use [Sublime Text](https://www.sublimetext.com/), which will help with some visual formatting, but it's not necessary.
 
 Add a new line to the `phone_book` for each earphone / headphone you've measured.
 
 If you measure both L and R channels, you will have exported 2x txt files. You do not need to add 2x lines to the `phone_book`, just one will work.
 
-Note that the formatting of this file is VERY particular. If you're not used to editing JSON, you will probably break this -- but that's fine. I recommend keeping a backup that you know works when making changes to the file.
+Note that the formatting of this file is VERY particular. If you're not used to editing JSON, you will probably break this - but that's fine. I recommend keeping a backup that you know works when making changes to the file.
 
 The core formatting is broken up into brands and models. This is what a brand with two models looks like:
 
-```
+```json
 {
-    "name":   "Akoustyx",
-    "phones": [
-        {"name":"R-120","file":"Akoustyx R-120"},
-        {"name":"R-220","file":"Akoustyx R-220"}
-    ]
+  "name": "Akoustyx",
+  "phones": [
+    { "name": "R-120", "file": "Akoustyx R-120" },
+    { "name": "R-220", "file": "Akoustyx R-220" }
+  ]
 }
 ```
 
-A common mistake is either omitting a necessary comma (`,`) at the end of a line, or including an unnecessary comma. The screenshot below shows what a functioning phone_book looks like -- reference this if you break something and need to debug.
+A common mistake is either omitting a necessary comma (`,`) at the end of a line, or including an unnecessary comma. The screenshot below shows what a functioning phone_book looks like - reference this if you break something and need to debug.
 
 ![Example phone_book.json file](./media/managing-a-database-01.png)
 
@@ -138,4 +138,4 @@ If all's gone well, you should be done. Refresh your Squiglink site to see if th
 
 Sometimes you will make changes to your site, refresh the site, and the changes aren't reflected. This is usually because of caching.
 
-The Squiglink website is cached by Cloudflare, which means that in the browser you may get served cached files that are "stale." To force the server to serve you fresh files, add the `?cachebust` parameter to the end of your site's URL and refresh the page twice (e.g. `https://squig.link/?cachebust` )
+The Squiglink website is cached by Cloudflare, which means that in the browser you may get served cached files that are "stale." To force the server to serve you fresh files, add the `?cachebust` parameter to the end of your site's URL and refresh the page twice (e.g. `https://squig.link/?cachebust`)
