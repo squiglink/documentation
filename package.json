@@ -5,7 +5,7 @@
     "vitepress-openapi": "^0.1.15"
   },
   "devDependencies": {
-    "oxfmt": "^0.36.0",
+    "oxfmt": "^0.37.0",
     "oxlint": "^1.51.0",
     "vue": "^3.5.29"
   }
