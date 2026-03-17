@@ -12,8 +12,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3)
       vitepress-openapi:
-        specifier: ^0.1.17
-        version: 0.1.17(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30)
+        specifier: ^0.1.18
+        version: 0.1.18(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30)
     devDependencies:
       oxfmt:
         specifier: ^0.41.0
@@ -688,11 +688,11 @@ packages:
   '@swc/helpers@0.5.19':
     resolution: {integrity: sha512-QamiFeIK3txNjgUTNppE6MiG3p7TdninpZu0E0PbqVh1a9FNLT2FRhisaa4NcaX52XVhA5l7Pk58Ft7Sqi/2sA==}
 
-  '@tanstack/virtual-core@3.13.21':
-    resolution: {integrity: sha512-ww+fmLHyCbPSf7JNbWZP3g7wl6SdNo3ah5Aiw+0e9FDErkVHLKprYUrwTm7dF646FtEkN/KkAKPYezxpmvOjxw==}
+  '@tanstack/virtual-core@3.13.23':
+    resolution: {integrity: sha512-zSz2Z2HNyLjCplANTDyl3BcdQJc2k1+yyFoKhNRmCr7V7dY8o8q5m8uFTI1/Pg1kL+Hgrz6u3Xo6eFUB7l66cg==}
 
-  '@tanstack/vue-virtual@3.13.21':
-    resolution: {integrity: sha512-zneUNdQTcUhoDl6+ek+/O4S9gSZRAc2q7VLscZ4WZnFfZcHc3M7OyVCfSDC3hGuwFqzfL8Cx5bZF6zbGCYwXmw==}
+  '@tanstack/vue-virtual@3.13.23':
+    resolution: {integrity: sha512-b5jPluAR6U3eOq6GWAYSpj3ugnAIZgGR0e6aGAgyRse0Yu6MVQQ0ZWm9SArSXWtageogn6bkVD8D//c4IjW3xQ==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
@@ -1013,8 +1013,8 @@ packages:
   regex@6.1.0:
     resolution: {integrity: sha512-6VwtthbV4o/7+OaAF9I5L5V3llLEsoPyq9P1JVXkedTP33c7MfCG0/5NOPcSJn0TzXcG9YUrR0gQSWioew3LDg==}
 
-  reka-ui@2.9.1:
-    resolution: {integrity: sha512-5Oa77f4VVNgUsMtGZKh3AnMCjJvA4TJ9phcN+TxPfGutdENaqleXO+NvhCkgK02PEHcyys8fqIF9CdcvSq5Flw==}
+  reka-ui@2.9.2:
+    resolution: {integrity: sha512-/t4e6y1hcG+uDuRfpg6tbMz3uUEvRzNco6NeYTufoJeUghy5Iosxos5YL/p+ieAsid84sdMX9OrgDqpEuCJhBw==}
     peerDependencies:
       vue: '>= 3.4.0'
 
@@ -1115,8 +1115,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-openapi@0.1.17:
-    resolution: {integrity: sha512-FhxbzdD1hyrceFaKnIYC9v81UMrT5HfyQHHfHcWzasrBZJxbRZQgQbfZNKlW9Lr4rdKRHMITxJDXJx1cMYq7vA==}
+  vitepress-openapi@0.1.18:
+    resolution: {integrity: sha512-2vm3vWywPJ3xThvPxuUaUFIfHz3lCLXT3bV6vh71wny+XB3IkJUfyJxPDDEjdCHVPIoNSVyPDR74iVszacF24w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       vitepress: '>=1.0.0'
@@ -1645,11 +1645,11 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tanstack/virtual-core@3.13.21': {}
+  '@tanstack/virtual-core@3.13.23': {}
 
-  '@tanstack/vue-virtual@3.13.21(vue@3.5.30)':
+  '@tanstack/vue-virtual@3.13.23(vue@3.5.30)':
     dependencies:
-      '@tanstack/virtual-core': 3.13.21
+      '@tanstack/virtual-core': 3.13.23
       vue: 3.5.30
 
   '@types/estree@1.0.8': {}
@@ -2041,13 +2041,13 @@ snapshots:
     dependencies:
       regex-utilities: 2.3.0
 
-  reka-ui@2.9.1(vue@3.5.30):
+  reka-ui@2.9.2(vue@3.5.30):
     dependencies:
       '@floating-ui/dom': 1.7.6
       '@floating-ui/vue': 1.1.11(vue@3.5.30)
       '@internationalized/date': 3.12.0
       '@internationalized/number': 3.6.5
-      '@tanstack/vue-virtual': 3.13.21(vue@3.5.30)
+      '@tanstack/vue-virtual': 3.13.23(vue@3.5.30)
       '@vueuse/core': 14.2.1(vue@3.5.30)
       '@vueuse/shared': 14.2.1(vue@3.5.30)
       aria-hidden: 1.2.6
@@ -2167,14 +2167,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-openapi@0.1.17(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30):
+  vitepress-openapi@0.1.18(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30):
     dependencies:
       '@vueuse/core': 14.2.1(vue@3.5.30)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       lucide-vue-next: 0.577.0(vue@3.5.30)
       markdown-it-link-attributes: 4.0.1
-      reka-ui: 2.9.1(vue@3.5.30)
+      reka-ui: 2.9.2(vue@3.5.30)
       vitepress: 1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3)
       vue: 3.5.30
     transitivePeerDependencies:
