@@ -12,8 +12,8 @@ importers:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3)
       vitepress-openapi:
-        specifier: ^0.1.18
-        version: 0.1.18(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30)
+        specifier: ^0.1.19
+        version: 0.1.19(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30)
     devDependencies:
       oxfmt:
         specifier: ^0.41.0
@@ -1115,8 +1115,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-openapi@0.1.18:
-    resolution: {integrity: sha512-2vm3vWywPJ3xThvPxuUaUFIfHz3lCLXT3bV6vh71wny+XB3IkJUfyJxPDDEjdCHVPIoNSVyPDR74iVszacF24w==}
+  vitepress-openapi@0.1.19:
+    resolution: {integrity: sha512-DvXzyXanB75tOK8DUNqAENvWSgFJ2EAXE59Zb1ejaYk05w2UplqmiYTcVDhLigV1dFeU+PhASMd1izY8+seVQA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       vitepress: '>=1.0.0'
@@ -2167,7 +2167,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress-openapi@0.1.18(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30):
+  vitepress-openapi@0.1.19(vitepress@1.6.4(@algolia/client-search@5.46.2)(postcss@8.5.8)(search-insights@2.17.3))(vue@3.5.30):
     dependencies:
       '@vueuse/core': 14.2.1(vue@3.5.30)
       class-variance-authority: 0.7.1
