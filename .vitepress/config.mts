@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/overview/getting-started" },
       { text: "Squiglink Lab", link: "https://squig.link" },
-      { text: "Squiglink Studio (TBD)", link: "https://studio.squig.link/" },
+      { text: "Squiglink Studio", link: "https://studio.squig.link/" },
     ],
     sidebar: [
       {
