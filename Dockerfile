@@ -1,7 +1,8 @@
-FROM oven/bun:1.3.12-alpine
+FROM node:26-alpine3.23 AS base
 
 RUN apk add --no-cache git
+RUN npm install --global pnpm@^11.1.0
 
 WORKDIR /documentation
 
-CMD ["bun", "vitepress", "dev", "--host"]
+CMD ["pnpm", "vitepress", "dev", "--host"]

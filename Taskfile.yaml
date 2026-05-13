@@ -2,7 +2,7 @@ tasks:
   build:
     desc: Build the documentation.
     cmds:
-      - docker compose run --rm documentation bun vitepress build
+      - docker compose run --rm documentation pnpm vitepress build
 
   check:
     desc: Check everything.
@@ -13,12 +13,12 @@ tasks:
   check-formatting:
     desc: Check formatting.
     cmds:
-      - docker compose run --rm documentation bun oxfmt --check {{.CLI_ARGS}}
+      - docker compose run --rm documentation pnpm oxfmt --check {{.CLI_ARGS}}
 
   check-linting:
     desc: Check linting.
     cmds:
-      - docker compose run --rm documentation bun oxlint --deny-warnings
+      - docker compose run --rm documentation pnpm oxlint --deny-warnings
 
   fetch-openapi-specification:
     desc: Fetch the OpenAPI specification.
@@ -28,9 +28,9 @@ tasks:
         rm -fr .temporary/server &&
         git clone --depth 1 https://github.com/squiglink/server.git .temporary/server &&
         cd .temporary/server &&
-        bun install &&
-        cp .env.example .env &&
-        bun scripts/generate-openapi.ts &&
+        pnpm install &&
+        export \$(sed 's/#.*//' .env.example) &&
+        pnpm exec tsx scripts/generate-openapi.ts &&
         mkdir --parents /documentation/public &&
         cp output/openapi.json /documentation/public/openapi.json &&
         cd /documentation &&
@@ -40,17 +40,17 @@ tasks:
   fix-formatting:
     desc: Fix formatting.
     cmds:
-      - docker compose run --rm documentation bun oxfmt --write {{.CLI_ARGS}}
+      - docker compose run --rm documentation pnpm oxfmt --write {{.CLI_ARGS}}
 
   preview:
     desc: Preview the built documentation.
     cmds:
-      - docker compose run --rm --service-ports documentation bun vitepress preview
+      - docker compose run --rm --service-ports documentation pnpm vitepress preview
 
   install-dependencies:
     desc: Install dependencies.
     cmds:
-      - docker compose run --rm documentation bun install
+      - docker compose run --rm documentation pnpm install
 
   list:
     aliases:
